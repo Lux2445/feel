@@ -54,7 +54,7 @@ body {
   margin: 0;
   padding: 0;
 }
-/* 
+
 .hide {
   opacity: 0;
 }
@@ -108,7 +108,7 @@ body {
   to {
     transform: rotateZ(360deg);
   }
-} */
+}
 
 .first__section{
   height: 700px;
