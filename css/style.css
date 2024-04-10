@@ -167,6 +167,10 @@ body {
 
 
  @media (max-width: 768px) {
+  .second__section_weapper_text{
+    margin-left: -100px;
+   }
+
   .third__section_text{
     margin-top: -170px;
   }
@@ -205,7 +209,7 @@ body {
     }
 
     .third__section{
-      max-height: 340px;
+      max-height: 337px;
     }
     .second__section{
       max-height: 350px;
@@ -220,6 +224,11 @@ body {
       font-weight: 100;
       line-height: 15px;
      }
+
+    .third__section_button_item{
+      margin-top: -20px;
+    }
+
     .second__section_button_item{
       margin-top: -20px;
       width: 90px;
@@ -236,6 +245,7 @@ body {
     
     .third__section_img{
       margin-top: 45px;
+      margin-left: -50px;
     }
   
     .third__section_image{
@@ -243,9 +253,12 @@ body {
      }
     .second__section_img{
       min-width: 95%;
+      width: 100px;
+      z-index: 1000;
     }
     .second__section_image{
       width: 320px;
+      margin-left: -50px;
     }
   
  }
@@ -257,6 +270,7 @@ body {
 
  .second__section_weapper{
   display: inline-flex;
+  margin-left: 200px;
  }
 
  .second__section_image{
@@ -286,7 +300,6 @@ body {
 
  .second__section_weapper_text{
   color: #FFF;
-  margin-left: 85px;
   margin-top: 100px;
  }
 
@@ -311,6 +324,7 @@ body {
 
  .third__section_weapper{
   display: inline-flex;
+  margin-left: 100px;
  }
 
  .third__section_image{
@@ -341,6 +355,7 @@ body {
  .third__section_weapper_text{
   color: #FFF;
   margin-top: 200px;
+  margin-left: -50px;
  }
 
  .third__section_paragraph{
