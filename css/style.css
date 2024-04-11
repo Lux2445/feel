@@ -193,6 +193,7 @@ body {
     .first__section_wrapper{
       padding-top: 200px;
       padding-left: 15px;
+      margin-left: 100px;
     }
     .logo__first{
       margin-left: 50px;
@@ -270,7 +271,7 @@ body {
 
  .second__section_weapper{
   display: inline-flex;
-  margin-left: 200px;
+  margin-left: 300px;
  }
 
  .second__section_image{
@@ -324,7 +325,7 @@ body {
 
  .third__section_weapper{
   display: inline-flex;
-  margin-left: 100px;
+  margin-left: 250px;
  }
 
  .third__section_image{
