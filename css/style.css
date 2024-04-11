@@ -387,3 +387,22 @@ body {
 .del{
   display: none;
 }
+
+
+
+.slider{
+  display: inline-flex;
+}
+
+.four__section_items:first-child{
+  margin-left: 0px;
+}
+
+.slider{
+  margin-top: 120px;
+}
+
+.four__section_items{
+  margin-left: 90px;
+}
+
