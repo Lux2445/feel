@@ -109,38 +109,83 @@
             </div>
         </section>
         <section class="four__section">
-            <div class="slider">
-                <ul class="four__section_items">
-                    <li class="four__section_items">
-                        <img src="./img/svg/icon__four-section1.svg" alt="">
-                    </li>
-                </ul>
-                <ul class="four__section_items">
-                    <li class="four__section_items">
-                        <img src="./img/svg/icon__four-section2.svg" alt="">
-                    </li>
-                </ul>
-                <ul class="four__section_items">
-                    <li class="four__section_items">
-                        <img src="./img/svg/icon__four-section3.svg" alt="">
-                    </li>
-                </ul>
-                <ul class="four__section_items">
-                    <li class="four__section_items">
-                        <img src="./img/svg/icon__four-section4.svg" alt="">
-                    </li>
-                </ul>
-                <ul class="four__section_items">
-                    <li class="four__section_items">
-                        <img src="./img/svg/icon__four-section5.svg" alt="">
-                    </li>
-                </ul>
-                <ul class="four__section_items">
-                    <li class="four__section_items">
-                        <img src="./img/svg/icon__four-section6.svg" alt="">
-                    </li>
-                </ul>
+            <!-- <div class="slider">
+                <div class="four__section_items fade">
+                    <img src="./img/svg/icon__four-section1.svg" alt="" >
+                    <img src="/img/strelka.png" alt="" >
+                </div>
+                <div class="four__section_items fade">
+                    <img src="./img/svg/icon__four-section2.svg" alt="" >
+                    <img src="/img/strelka.png" alt="" >
+                </div>
+                <div class="four__section_items fade">
+                    <img src="./img/svg/icon__four-section3.svg" alt="" class="boss">
+                    <img src="/img/strelka.png" alt="" class="child">
+                </div>
+                <div class="four__section_items fade">
+                    <img src="./img/svg/icon__four-section4.svg" alt="" class="boss">
+                    <img src="/img/strelka.png" alt="" class="child">
+                </div>
+                <div class="four__section_items fade">
+                    <img src="./img/svg/icon__four-section5.svg" alt="" class="boss">           
+                    <img src="/img/strelka.png" alt="" class="child">
+                </div>
+                <div class="four__section_items fade">
+                    <img src="./img/svg/icon__four-section6.svg" alt="" class="boss">
+                    <img src="/img/strelka.png" alt="" class="child">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                <a class="next" onclick="plusSlides(1)">&#10095</a>
             </div>
+            <br>
+
+            <div style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div> -->
+
+<div class="slider" x-data="{start: true, end: false}">
+  <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
+    <div class="slider__item">
+        <img src="/img/strelka.png" alt="">
+      <img class="slider__image" src="/img/svg/icon__four-section1.svg" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="/img/svg/icon__four-section2.svg" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="/img/svg/icon__four-section3.svg" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="/img/svg/icon__four-section4.svg" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="/img/svg/icon__four-section5.svg" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="/img/svg/icon__four-section6.svg" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    
+</div>
         </section>
         <section>
     
