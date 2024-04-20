@@ -110,51 +110,54 @@
            
 
 <div class="slider" x-data="{start: true, end: false}">
-  <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
-    <div class="slider__item">
-        <img src="./img/strelka.png" alt="" class="strelka">
-        <img class="slider__image" src="./img/svg/icon__four-section1.svg" alt="Image">
-        <div class="slider__info">
-        <h2 class="h__first">MAXPUMP</h2>
-      </div>
+    <div class="slider__wrapper">
+        <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
+            <div class="slider__item">
+                <img src="./img/strelka.png" alt="" class="strelka">
+                <img class="slider__image" src="./img/svg/icon__four-section1.svg" alt="Image">
+                <div class="slider__info">
+                <h2 class="h__first">MAXPUMP</h2>
+              </div>
+            </div>
+            <div class="slider__item">
+                <img src="./img/strelka.png" alt="" class="strelka">
+                <img class="slider__image" src="./img/svg/icon__four-section2.svg" alt="Image">
+                <div class="slider__info">
+                <h2 class="h__second">ARON GYM</h2>
+              </div>
+            </div>
+            <div class="slider__item">
+                <img src="./img/strelka.png" alt="" class="strelka">
+                <img class="slider__image" src="./img/svg/icon__four-section3.svg" alt="Image">
+                <div class="slider__info">
+                <h2 class="h__third">FIT & TONE</h2>
+              </div>
+            </div>
+            <div class="slider__item">
+                <img src="./img/strelka.png" alt="" class="strelka">
+                <img class="slider__image" src="./img/svg/icon__four-section4.svg" alt="Image">
+                <div class="slider__info">
+                <h2 class="h__four">FORZA</h2>
+              </div>
+            </div>
+            <div class="slider__item">
+                <img src="./img/strelka.png" alt="" class="strelka">
+                <img class="slider__image" src="./img/svg/icon__four-section5.svg" alt="Image">
+                <div class="slider__info">
+                <h2 class="h__fife">SALANCE FITNESS</h2>
+              </div>
+            </div>
+            <div class="slider__item">
+                <img src="./img/strelka.png" alt="" class="strelka">
+                <img class="slider__image" src="./img/svg/icon__four-section6.svg" alt="Image">
+                <div class="slider__info">
+                <h2 class="h__six">BODY SCULPT</h2>
+              </div>
+            </div>
+            
+        </div>
     </div>
-    <div class="slider__item">
-        <img src="./img/strelka.png" alt="" class="strelka">
-        <img class="slider__image" src="./img/svg/icon__four-section2.svg" alt="Image">
-        <div class="slider__info">
-        <h2 class="h__second">ARON GYM</h2>
-      </div>
-    </div>
-    <div class="slider__item">
-        <img src="./img/strelka.png" alt="" class="strelka">
-        <img class="slider__image" src="./img/svg/icon__four-section3.svg" alt="Image">
-        <div class="slider__info">
-        <h2 class="h__third">FIT & TONE</h2>
-      </div>
-    </div>
-    <div class="slider__item">
-        <img src="./img/strelka.png" alt="" class="strelka">
-        <img class="slider__image" src="./img/svg/icon__four-section4.svg" alt="Image">
-        <div class="slider__info">
-        <h2 class="h__four">FORZA</h2>
-      </div>
-    </div>
-    <div class="slider__item">
-        <img src="./img/strelka.png" alt="" class="strelka">
-        <img class="slider__image" src="./img/svg/icon__four-section5.svg" alt="Image">
-        <div class="slider__info">
-        <h2 class="h__fife">SALANCE FITNESS</h2>
-      </div>
-    </div>
-    <div class="slider__item">
-        <img src="./img/strelka.png" alt="" class="strelka">
-        <img class="slider__image" src="./img/svg/icon__four-section6.svg" alt="Image">
-        <div class="slider__info">
-        <h2 class="h__six">BODY SCULPT</h2>
-      </div>
-    </div>
-    
-</div>
+ 
         </section>
         <section class="five__section">
             <div class="five__section_wrapper">
@@ -166,18 +169,20 @@
                     <h1 class="five__section_paragraph">JOIN US</h1>
                     <img src="./img/vverh.png" alt="" class="five__section_wrapper_paragraph_img">
                 </div>
-                <div class="five__section_wrapper_title">
-                    <h1 class="five__section_title_first">START HERE</h1>
-                    <h1 class="five__section_title_second">FILL THE FORM BELOW TO START YOUR JOURNEY</h1>
-                </div>
-                <div class="five__section_wrapper_input">
-                    <input type="text" class="five__section_input" placeholder="Name">
-                    <input type="email" class="five__section_input" placeholder="Email">
-                    <div class="five__section_wrapper_input_btn">
-                        <a href="">
-                            <button class="five__section_input_btn">SUBSCRIBE</button>
-                        </a>
+                <div class="five__section_wrapper_title_items">
+                    <div class="five__section_wrapper_title">
+                        <h1 class="five__section_title_first">START HERE</h1>
+                        <h1 class="five__section_title_second">FILL THE FORM BELOW TO START YOUR JOURNEY</h1>
                     </div>
+                    <div class="five__section_wrapper_input">
+                        <input type="text" class="five__section_input" placeholder="Name">
+                        <input type="email" class="five__section_input" placeholder="Email">
+                        <div class="five__section_wrapper_input_btn">
+                            <a href="">
+                                <button class="five__section_input_btn">SUBSCRIBE</button>
+                            </a>
+                        </div>
+                    </div> 
                 </div> 
             </div>
         </section>
