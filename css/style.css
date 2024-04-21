@@ -243,6 +243,7 @@ body{
 }
 .second__section_img{
   width: 80%;
+  margin-left: 40px;
 }
 
 .four__section{
@@ -1070,5 +1071,36 @@ body{
   .first__section_title{
     font-size: 22px;
     line-height: 1;
+  }
+ }
+
+ @media (max-width: 580px) {
+  .five__section_paragraph{
+    margin-left: 110px;
+  }
+ }
+
+ @media (max-width: 571px) {
+  .five__section_paragraph{
+    margin-left: 100px;
+    width: 400px;
+  }
+ }
+
+ @media (max-width: 1023px) {
+  .five__section_wrapper_paragraph{
+    margin-left: -120px;
+  }
+  .first__section_wrapper{
+    margin-left: 20px;
+  }
+ }
+
+ @media (max-width: 600px) {
+  .five__section_paragraph{
+    margin-left: 150px
+  }
+  .five__section_wrapper_paragraph{
+    margin-left: 30px;
   }
  }
