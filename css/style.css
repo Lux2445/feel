@@ -1104,3 +1104,13 @@ body{
     margin-left: 30px;
   }
  }
+
+ @media (max-width: 393px) {
+  .cover{
+    width: 110%;
+  }
+  .first__section_title{
+    line-height: 1;
+    font-size: 23px;
+  }
+ }
