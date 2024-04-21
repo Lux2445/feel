@@ -632,6 +632,7 @@ body{
       margin: 0;
       width: 100%;
       margin-top: -30px;
+      margin-left: 120px;
      }
      .second__section_image{
       padding: 0;
@@ -1049,5 +1050,25 @@ body{
   }
   .cover{
     width: 50%;
+  }
+ }
+
+ @media (max-width: 578px) {
+  .five__section_paragraph{
+    margin-left: 90px;
+  }
+ }
+
+ @media (max-width: 385px) {
+  .five__section_paragraph{
+    margin-left: 130px;
+    width: 400px;
+  }
+  .cover{
+    width: 90%;
+  }
+  .first__section_title{
+    font-size: 22px;
+    line-height: 1;
   }
  }
