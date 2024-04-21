@@ -735,9 +735,9 @@ body{
 
 
   .five__section_wrapper_paragraph_img{
-    /* width: 20%; */
-    margin-left: 500px;
-    margin-top: -60px;
+    
+    margin-left: 550px;
+    margin-top: -55px;
   }
 }
 
@@ -1034,6 +1034,8 @@ body{
     }
  }
  
- @media (max-width:) {
-  
+ @media (max-width: 684) {
+  .second__section_img{
+    margin-left: 200px;
+  }
  }
