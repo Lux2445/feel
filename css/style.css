@@ -12,6 +12,8 @@ body{
   width: 100%;
 }
 
+
+
 .nav__image_button{
 background: transparent;
 border: none;
@@ -1033,6 +1035,10 @@ margin-left: 60px;
   .second__section_img{
     z-index: 1000;
     margin-top: -40px;
+    margin-left: 140px;
+  }
+  .five__section_wrapper_title_items{
+    margin-left: 10px;
   }
 }
 
@@ -1115,31 +1121,27 @@ margin-left: 60px;
 }
 }
 
-@media (max-width: 320px) {
+
+@media (max-width: 425px) {
   .first__section_title{
-    font-size: 18px;
-    width: 100px;
-    line-height: 25px;
-  }
-  .first__section_wrapper{
-    margin-left: -35px;
+    font-size: 25px;
+    line-height: 1;
   }
   .second__section_weapper{
-    margin-left: 35px;
-  }
-  .second__section_img{
-    margin-left: 85px;
+    margin-left: 40px;
   }
   .third__section_weapper{
-    margin-left: -35px;
+    margin-left: -10px;
   }
- .five__section_paragraph_items{
-  margin-left: 30px;
- }
- .five__section_wrapper_title_items{
-  margin-left: 30px;
- }
+  .cover{
+    width: 90%;
+    margin-left: -70px;
+  }
+  .five__section_wrapper_title_items{
+    margin-left: 0px;
+  }
 }
+
 
 @media (max-width: 375px) {
   .first__section_title{
@@ -1151,19 +1153,62 @@ margin-left: 60px;
     margin-left: -35px;
   }
   .second__section_weapper{
-    margin-left: 35px;
+    margin-left: 10px;
   }
   .second__section_img{
     margin-left: 85px;
   }
   .third__section_weapper{
-    margin-left: -35px;
+    margin-left: -55px;
   }
   .five__section_wrapper{
     margin-left: -45px;
   }
+  .cross{
+    font-size: 120px;
+  }
 }
 
-@media (max-width: 425px) {
-  
+@media (max-width: 320px) {
+  .first__section{
+    height: 700px;
+  }
+  .first__section_title{
+    font-size: 18px;
+    width: 100px;
+    line-height: 25px;
+  }
+  .first__section_wrapper{
+    margin-left: -35px;
+  }
+  .second__section_weapper{
+    margin-left: 1px;
+  }
+  .second__section_img{
+    margin-left: 85px;
+  }
+  .third__section_weapper{
+    margin-left: -55px;
+  }
+ .five__section_paragraph_items{
+  margin-left: 30px;
+ }
+ .five__section_wrapper_title_items{
+  margin-left: 20px;
+ }
+ .first__section_wrapper{
+  margin-top: -200px;
+ }
+ .cross{
+  font-size: 120px;
+ }
+ .cover{
+  width: 120%;
+ }
+ .five__section_paragraph_items{
+  margin-left: -20px;
+ }
+ /* .header__wrapper{
+  width: 900px;
+ } */
 }
