@@ -527,7 +527,7 @@ margin-left: 60px;
 
 .six__section_wrapper{
   display: inline-flex;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   margin-top: 15px;
 }
 
@@ -630,26 +630,6 @@ margin-left: 60px;
 }
 }
 
-@media (max-width: 1097px) {
-  .first__section_wrapper{
-    margin-left: 60px;
-  }
-  .second__section_weapper{
-    margin-left: 60px;
-  }
-  .third__section_weapper{
-    margin-left: 20px;
-  }    
-  .slider__content{
-    width: 940px;
-  }
-  .five__section_wrapper_input{
-    margin-left: 125px;
-  }
-  .five__section_wrapper_title{
-    margin-left: -90px;
-  }
-}
 @media (max-width: 768px) {
   .five__section_wrapper_input{
     display: block;
@@ -674,9 +654,7 @@ margin-left: 60px;
    .slider__content{
     width: 750px;
    }
-   .five__section_wrapper_title_items{
-    margin-left: 60px;
-   }
+  
    .five__section_paragraph{
     /* margin-left: 200px;
     font-size: 90px;
@@ -693,6 +671,9 @@ margin-left: 60px;
    .header{
     width: 100%;
    }
+
+
+    
 
    .cross{
     padding: 0;
@@ -728,7 +709,7 @@ margin-left: 60px;
    }
 
    .four__section{
-    width: 850px;
+    width: 750px;
    }
 
   
@@ -740,11 +721,11 @@ margin-left: 60px;
    }
 
    .five__section{
-    width: 850px;
+    width: 750px;
    }
    .second__section{
     height: 700px;
-    width: 850px;
+    width: 750px;
    }
    .second__section_title:first-child{
     font-size: 45px;
@@ -772,11 +753,11 @@ margin-left: 60px;
 
    .third__section_weapper_text{
     margin-top: 580px;
-    margin-left: -330px;
+    margin-left: -300px;
 
    }
    .third__section{
-    width: 820px;
+    width: 750px;
     height: 700px;
    }
    .third__section_title:first-child{
@@ -838,9 +819,7 @@ margin-left: 60px;
   width: 500px;
   margin-left: 100px;
 }
-.four__section{
-  width: 755px;
-}
+
 .second__section_weapper_text{
   width: 500px;
 }
@@ -850,6 +829,7 @@ margin-left: 60px;
 }
 .five__section{
   width: 755px;
+  height: 1000px;
 }
 
 .cross{
@@ -907,7 +887,9 @@ margin-left: 60px;
   max-width: 80px;
 }
 
-
+.first__section_wrapper{
+  margin-left: 30px;
+}
 
 .slider {
   width: 10px;
@@ -1041,7 +1023,7 @@ margin-left: 60px;
   margin-top: -170px;
 }
 .second__section_weapper{
-  margin-left: 100px;
+  margin-left: 30px;
 }
 .second__section_text{
   margin-top: -90px;
@@ -1058,9 +1040,9 @@ margin-left: 60px;
   }
   .first__section{
     height: 668px;
+    width: 750px;
   }
   .third__section_weapper{
-    padding-left: 65px;
     margin-left: 0px;
   }
   .logo__first{
@@ -1117,26 +1099,26 @@ margin-left: 60px;
     margin-left: 140px;
   }
   .five__section_wrapper_title_items{
-    margin-left: 50px;
+    margin-left: 0;
   }
   .five__section_paragraph_items{
-    margin-left: 50px;
+    margin-left: 0;
   }
 
   .six__section_wrapper{
     display: block;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
 
   .six__section{
-    width: 850px;
+    width: 750px;
     height: 850px;
     position: absolute;
   }
 
   .six__section_map{
     margin-top: 20px;
-    margin-left: 80px
+    margin-left: 60px;
   }
 }
 
@@ -1196,7 +1178,7 @@ margin-left: 60px;
   margin-left: -120px;
 }
 .first__section_wrapper{
-  margin-left: 60px;
+  /* margin-left: 60px; */
 }
 }
 
@@ -1226,7 +1208,7 @@ margin-left: 60px;
     line-height: 1;
   }
   .second__section_weapper{
-    margin-left: 100px;
+    margin-left: 50px;
   }
   .third__section_weapper{
     margin-left: 15px;
@@ -1236,7 +1218,7 @@ margin-left: 60px;
 
   }
   .first__section_wrapper{
-    margin-left: 90px;
+    /* margin-left: 90px; */
   }
   .five__section_paragraph_items{
     margin-left: 40px;
@@ -1245,7 +1227,7 @@ margin-left: 60px;
     margin-left: 50px;
   }
   .six__section_wrapper{
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
   .map{
     margin-left: 20px;
