@@ -698,11 +698,11 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url(/img/h5.png);
+  background-image: url(./img/h5.png);
 }
 
 .card[for="c2"] {
-  background-image: url(/img/h6.png);
+  background-image: url(./img/h6.png);
 }
 
 .card[for="c3"] {
