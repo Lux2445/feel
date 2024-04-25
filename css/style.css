@@ -1252,6 +1252,13 @@ margin-left: 60px;
   }
 }
 
+@media (max-width: 410px) {
+  .first__section_title{
+    font-size: 20px;
+    width: 100px;
+  }
+}
+
 
 @media (max-width: 375px) {
   .first__section_title{
