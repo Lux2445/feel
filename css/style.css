@@ -122,7 +122,7 @@ background: #000000;
 
 .second__section_weapper{
 display: inline-flex;
-margin-left: 200px;
+margin-left: 150px;
 }
 
 
@@ -181,12 +181,12 @@ height: 550px;
 
 .third__section_weapper{
 display: inline-flex;
-margin-left: 150px;
+margin-left: 100px;
 }
 
 
 .five__section_wrapper_title_items{
-  margin-left: 20px;
+  margin-left: -30px;
 }
 
 .five__section_paragraph_items{
@@ -521,17 +521,18 @@ color: #FFF;
 
 
 .five__section_wrapper_paragraph{
-margin-left: 60px;
+margin-left: 0px;
 }
 
 
 .six__section_wrapper{
   display: inline-flex;
-  /* margin-left: 50px; */
+  margin-left: 50px;
   margin-top: 15px;
 }
 
 .six__section{
+
   width: 100%;
   height: 450px;
   background-color: #000;
@@ -543,7 +544,7 @@ margin-left: 60px;
 }
 
 .six__section_title{
-  margin-left: 170px;
+  margin-left: 100px;
   color: #FFF;
   margin-top: 120px;
 }
@@ -591,6 +592,126 @@ margin-left: 60px;
 
 
 
+
+
+.second__section_button_item:hover{
+  transform: scale(1.1);
+  transition: 900ms;
+  box-shadow: 0 0 25px #ffffff;
+}
+
+.seven__section{
+  position: absolute;
+  height: 4000px;
+}
+
+
+
+
+
+
+
+.seven__section__wrapper_slider{
+  margin-left: 250px;
+  margin-top: 350px
+}
+
+.wrapper1 {
+  align-items: center;
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 400px;
+  justify-content: start;
+}
+
+.card {
+  align-items: flex-end;
+  background-size: cover;
+  border-radius: .75rem;
+  border-radius: 2rem;
+  box-shadow: 0px 10px 30px -5px rgba(63, 2, 2, 0.548);
+  cursor: pointer;
+  display: flex;
+  margin: 0 10px;
+  overflow: hidden;
+  transition: .6s cubic-bezier(.28,-0.03,0,.99);
+  width: 80px;
+}
+
+.card > .row {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card > .row > .icon {
+  align-items: center;
+  background: #223;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  width: 50px;
+}
+
+.card > .row > .description {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: center;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(30px);
+  transition: all .3s ease;
+  transition-delay: .3s;
+  width: 520px;
+}
+
+.description p {
+  color: #b0b0ba;
+  padding-top: 5px;
+}
+
+.description h4 {
+  text-transform: uppercase;
+}
+
+.input {
+  display: none;
+}
+
+input:checked + label {
+  width: 370px;
+}
+
+input:checked + label .description {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.card[for="c1"] {
+  background-image: url(/img/h5.png);
+}
+
+.card[for="c2"] {
+  background-image: url(/img/h6.png);
+}
+
+.card[for="c3"] {
+  background-image: url(/img/h7.png);
+}
+
+.card[for="c4"] {
+  background-image: url(/img/h8.png);
+}
 
 
 
@@ -653,6 +774,15 @@ margin-left: 60px;
 }
 
 @media (max-width: 768px) {
+.seven__section{
+position: absolute;
+}
+.seven__section__wrapper{
+  width: 768px;
+}
+
+
+
   .five__section_wrapper_input{
     display: block;
     margin-top: 50px;
@@ -816,17 +946,13 @@ margin-left: 60px;
    }
 }
 
-
 @media (max-width:768px) {
-
-
-.five__section_wrapper_paragraph_img{
-  
-  margin-left: 550px;
-  margin-top: -55px;
+.seven__section__wrapper_slider{
+width: 700px;
+margin-left: 10px;
+margin-top: 1100px;
 }
 }
-
 @media (max-width: 375px) {
 .second__section{
   width: 755px;
@@ -865,7 +991,6 @@ margin-left: 60px;
   line-height: 20px;
 }
 }
-
 @media (max-width: 768px) {
 
 .slider__image:active, .slider__image:hover{
@@ -1045,7 +1170,7 @@ margin-left: 60px;
   margin-top: -170px;
 }
 .second__section_weapper{
-  margin-left: 30px;
+  margin-left: 60px;
 }
 .second__section_text{
   margin-top: -90px;
@@ -1065,7 +1190,7 @@ margin-left: 60px;
     width: 768px;
   }
   .third__section_weapper{
-    margin-left: 0px;
+    margin-left: 30px;
   }
   .logo__first{
     margin-left: 50px;
@@ -1127,7 +1252,7 @@ margin-left: 60px;
 
   .six__section_wrapper{
     display: block;
-    /* margin-left: 50px; */
+    margin-left: 0px;
   }
 
   .six__section{
@@ -1336,12 +1461,4 @@ margin-left: 60px;
   width: 900px;
  } */
 }
-
-.second__section_button_item:hover{
-  transform: scale(1.1);
-  transition: 900ms;
-  box-shadow: 0 0 25px #22282d;
-}
-
-
 
