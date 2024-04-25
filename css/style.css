@@ -595,7 +595,29 @@ margin-left: 60px;
 
 
 
-
+@media (max-width: 1024px) {
+  .second__section{
+    width: 1200px;
+  }
+  .four__section{
+    width: 1200px;
+  }
+  .five__section{
+    width: 1200px;
+  }
+  .six__section{
+    width: 1200px;
+  }
+  .six__section_title{
+    margin-left: 100px;
+  }
+  .map{
+    margin-left: 10px;
+  }
+  .first__section_wrapper{
+    margin-left: 100px;
+  }
+}
 
 @media (max-width: 375px) {
 .cover{
@@ -709,7 +731,7 @@ margin-left: 60px;
    }
 
    .four__section{
-    width: 750px;
+    width: 768px;
    }
 
   
@@ -721,11 +743,11 @@ margin-left: 60px;
    }
 
    .five__section{
-    width: 750px;
+    width: 768px;
    }
    .second__section{
     height: 700px;
-    width: 750px;
+    width: 768px;
    }
    .second__section_title:first-child{
     font-size: 45px;
@@ -757,7 +779,7 @@ margin-left: 60px;
 
    }
    .third__section{
-    width: 750px;
+    width: 768px;
     height: 700px;
    }
    .third__section_title:first-child{
@@ -1040,7 +1062,7 @@ margin-left: 60px;
   }
   .first__section{
     height: 668px;
-    width: 750px;
+    width: 768px;
   }
   .third__section_weapper{
     margin-left: 0px;
@@ -1077,8 +1099,6 @@ margin-left: 60px;
 
   .second__section_button_item{
     margin-top: -20px;
-    /* width: 90px; */
-    /* height: 30px; */
     background: transparent;
     border: 1px solid #FFF;
     border-radius: 50px;
@@ -1111,14 +1131,18 @@ margin-left: 60px;
   }
 
   .six__section{
-    width: 750px;
+    width: 768px;
     height: 850px;
     position: absolute;
   }
 
   .six__section_map{
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 80px;
+  }
+
+  .six__section_title{
+    margin-left: 180px;
   }
 }
 
@@ -1173,14 +1197,6 @@ margin-left: 60px;
 }
 }
 
-@media (max-width: 1023px) {
-.five__section_wrapper_paragraph{
-  margin-left: -120px;
-}
-.first__section_wrapper{
-  /* margin-left: 60px; */
-}
-}
 
 @media (max-width: 600px) {
 .five__section_paragraph{
@@ -1217,18 +1233,14 @@ margin-left: 60px;
     width: 90%;
 
   }
-  .first__section_wrapper{
-    /* margin-left: 90px; */
-  }
+
   .five__section_paragraph_items{
     margin-left: 40px;
   }
   .five__section_wrapper_title_items{
     margin-left: 50px;
   }
-  .six__section_wrapper{
-    /* margin-left: 30px; */
-  }
+
   .map{
     margin-left: 20px;
   }
@@ -1330,3 +1342,6 @@ margin-left: 60px;
   transition: 900ms;
   box-shadow: 0 0 25px #22282d;
 }
+
+
+
