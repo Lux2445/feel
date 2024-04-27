@@ -166,7 +166,7 @@
         <section class="five__section">
             <div class="five__section_wrapper ">
                 <div class="five__section_wrapper_image">
-                    <img src="./img/h4.png" alt="" class="cover">
+                    <img src="./img/h4.png" alt="" class="cover" data-aos="flip-right" data-aos-duration="1000">
                     <img src="./img/91ea7764f4eaf54b963accba0e738026.jpg" alt="" class="section__bg">
                 </div>
                 <div class="five__section_paragraph_items">
@@ -216,7 +216,12 @@
         <section class="seven__section">
             <div class="seven__section__wrapper">
                 <div class="seven__section__wrapper_title">
-
+                    <div class="seven__section__wrapper_title_paragraph">
+                        <h1 class="seven__section__wrapper_paragraph_item">BE A PART OF OUR FIT FAMILY</h1>
+                    </div>
+                    <div class="seven__section__wrapper_title_text">
+                        <p class="seven__section__wrapper_text_item">TRAINING HELPS YOU THINK AND FEEL BETTER. JOIN US!</p>
+                    </div>
                 </div>
                     <div class="seven__section__wrapper_slider">
                         <div class="wrapper1">
@@ -260,12 +265,34 @@
                         </div>
                     </div>
                 <div class="seven__section__wrapper_information">
-                    
+                    <div class="seven__section_part1">
+                        <div class="seven__section_part1_text">
+                            <h1 class="seven__section_part1_title">INPUT YOUR BMI</h1>
+                            <p class="seven__section_part1_pragraph">Duo graece ponderum ne, ei mel aliquando. Pro te</p>
+                            <p class="seven__section_part1_pragraph">tamquam nonumes, nam no nemore epicurei</p>
+                        </div>
+                        <form class="seven__section_part1_imput">
+                            <input type="number" class="height inpet" placeholder="Height / cm">
+                            <input type="number" class="weight inpet" placeholder="Weight / kg">
+                            <input type="number" class="age inpet"  placeholder="Age">
+                            <input type="text" class="gender inpet"  placeholder="Gender">
+                            <input type="text" class="factor inpet"  placeholder="Select an activity factor:" maxlength="50">
+                            <input type="text" class="reset">
+                            <button class="seven__section_part1_btn">CALCULATE</button>
+                        </form>
+                    </div>
+                    <div class="seven__section_part2">
+
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    
+    <footer class="footer">
+        <a href="#" class="footer__logo_link">
+            <img src="./img/svg/header_logo.svg" alt="Discover Amazing places in Japan" class="footer__logo">
+        </a>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/app.js"></script>
 </body>

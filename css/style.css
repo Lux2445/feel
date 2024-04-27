@@ -111,7 +111,7 @@ width: 180px;
 
 .first__section_wrapper{
 padding-top: 200px;
-margin-left: 200px;
+margin-left: 100px;
 }
 
 
@@ -532,7 +532,7 @@ margin-left: 0px;
 }
 
 .six__section{
-
+  position: absolute;
   width: 100%;
   height: 450px;
   background-color: #000;
@@ -601,8 +601,7 @@ margin-left: 0px;
 }
 
 .seven__section{
-  position: absolute;
-  height: 4000px;
+  height: 1200px;
 }
 
 
@@ -612,14 +611,15 @@ margin-left: 0px;
 
 
 .seven__section__wrapper_slider{
-  margin-left: 250px;
-  margin-top: 350px
+  position: relative;
+  margin-top: 630px;
+  
 }
 
 .wrapper1 {
   align-items: center;
   display: flex;
-  height: 80vh;
+  height: 100vh;
   justify-content: center;
   width: 100%;
 }
@@ -672,7 +672,7 @@ margin-left: 0px;
   transform: translateY(30px);
   transition: all .3s ease;
   transition-delay: .3s;
-  width: 520px;
+  width: 600px;
 }
 
 .description p {
@@ -689,7 +689,7 @@ margin-left: 0px;
 }
 
 input:checked + label {
-  width: 370px;
+  width: 400px;
 }
 
 input:checked + label .description {
@@ -698,20 +698,185 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url(./img/h5.png);
+  background-image: url(/img/h8.png);
 }
 
 .card[for="c2"] {
-  background-image: url(./img/h6.png);
+  background-image: url(/img/h6.png);
 }
 
 .card[for="c3"] {
   background-image: url(/img/h7.png);
+
 }
 
 .card[for="c4"] {
-  background-image: url(/img/h8.png);
+  background-image: url(/img/h5.png);
 }
+
+.seven__section__wrapper_title{
+  position: absolute;
+  color: #fff;
+  margin-top: -100px;
+  margin-left: 280px;
+}
+
+.seven__section__wrapper_paragraph_item{
+
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.seven__section__wrapper_text_item{
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.seven__section_part1{
+  color: #FFF;
+}
+
+.seven__section_part1_imput{
+  display: grid;
+  grid-template-columns: 320px 320px ;
+}
+
+
+
+
+
+.seven__section_part1_title{
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.seven__section_part1_pragraph{
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.seven__section_part1_pragraph:last-child{
+  margin-top: 10px;
+}
+
+.factor{
+  width: 575px;
+}
+
+.reset{
+  color: transparent;
+  background-color: transparent;
+  border: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.seven__section_part1{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.seven__section_part1_imput{
+  margin-top: 40px;
+}
+
+.inpet{
+  color: #FFF;
+  background-color: transparent;
+  border: 1px solid #fff;
+  height: 50px;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.seven__section_part1_btn{
+  margin-top: 20px;
+  height: 50px;
+  border-radius: 30px;
+  color: #FFF;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.third__section_button_item:hover{
+  transform: scale(1.1);
+  transition: 900ms;
+  box-shadow: 0 0 25px #ffffff;
+}
+
+.five__section_input:hover{
+  transform: scale(1.1);
+  transition: 900ms;
+  box-shadow: 0 0 25px #ffffff;
+}
+
+.five__section_input_btn:hover{
+  transform: scale(1.1);
+  transition: 900ms;
+  box-shadow: 0 0 25px #ffffff;
+}
+
+.six__section_input_btn:hover{
+  transform: scale(1.1);
+  transition: 900ms;
+  box-shadow: 0 0 25px #ffffff;
+}
+
+
+.inpet:hover{
+  transform: scale(1.1);
+  transition: 900ms;
+  box-shadow: 0 0 25px #ffffff;
+}
+
+.seven__section_part1_btn:hover{
+  transform: scale(1.1);
+  transition: 900ms;
+  box-shadow: 0 0 25px #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+  height: 500px;
+  background-color: #000;
+}
+
+.footer__logo{
+  margin-top: 100px;
+  width: 20%;
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -781,8 +946,33 @@ position: absolute;
   width: 768px;
 }
 
+.seven__section__wrapper_text_item{
+  font-size: 16px;
+  margin-left: 70px;
+}
 
 
+.footer{
+  margin-top: 3000px;
+}
+
+input:checked + label {
+  width: 350px;
+}
+
+.wrapper1{
+margin-left: 30px;
+margin-top: -150px;
+}
+
+.seven__section__wrapper_title{
+  margin-left: 80px;
+  margin-top: 50px;;
+}
+
+.seven__section__wrapper_paragraph_item{
+  font-size: 40px;
+}
   .five__section_wrapper_input{
     display: block;
     margin-top: 50px;
@@ -1461,4 +1651,3 @@ margin-top: 1100px;
   width: 900px;
  } */
 }
-
