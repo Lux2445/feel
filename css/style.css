@@ -158,6 +158,16 @@ color: #FFF;
 margin-top: 150px;
 }
 
+.second__section_bacground_text{
+  position: absolute;
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 0.4px #b0b0ba;
+  margin-top: -20px;
+  margin-left: -20px
+}
 
 
 .second__section_paragraph{
@@ -844,9 +854,6 @@ input:checked + label .description {
 
 
 
-
-
-
 .footer{
   height: 500px;
   background-color: #000;
@@ -854,9 +861,141 @@ input:checked + label .description {
 
 .footer__logo{
   margin-top: 100px;
-  width: 20%;
+  width: 40%;
   margin-left: 30px;
 }
+
+.seven__section_circle{
+  width: 500px;
+  height: 500px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-top: -450px;
+  margin-left: 800px;
+}
+
+.seven__section_table{
+  color: #FFF;
+  font-size: 17px;
+  margin-left: 890px;
+  margin-top: -370px;
+}
+
+ tr{
+  width: 150px;
+  height: 40px;
+  border: 1px solid #808080;
+}
+
+.second_tb_item{
+  border: 1px solid #808080;
+  padding: 10px;
+  border-top: none;
+  border-right: none;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.four_tb_item{
+  border: 1px solid #808080;
+  padding: 10px;
+  border-bottom: none;
+  border-right: none;
+}
+
+.six_tb_item{
+  border: 1px solid #808080;
+  padding: 10px;
+  border-bottom: none;
+  border-right: none;
+}
+
+.eight_tb_item{
+  border: 1px solid #808080;
+  padding: 10px;
+  border-bottom: none;
+  border-right: none;
+}
+
+.ten_tb_item{
+  border: 1px solid #808080;
+  padding: 10px;
+  border-bottom: none;
+  border-right: none;
+}
+
+.first_tb_item{
+  font-size: 22px;
+  font-weight: 900;
+  border: 1px solid #808080;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+}
+
+.third_tb_item{
+  border: 1px solid #808080;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+}
+
+.fife_tb_item{
+  border: 1px solid #808080;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+}
+
+.seven_tb_item{
+  border: 1px solid #808080;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+} 
+
+
+.nine_tb_item{
+  border: 1px solid #808080;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -968,6 +1107,21 @@ margin-top: -150px;
 .seven__section__wrapper_title{
   margin-left: 80px;
   margin-top: 50px;;
+}
+
+.seven__section_circle{
+  width: 500px;
+  height: 500px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 150px;
+  z-index: 1000;
+}
+
+.seven__section_table{
+  margin-left: 250px;
+  margin-top: -370px;
 }
 
 .seven__section__wrapper_paragraph_item{
