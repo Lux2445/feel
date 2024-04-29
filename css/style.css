@@ -866,20 +866,20 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url(./img/h8.png);
+  background-image: url(https://lux2445.github.io/feel/img/h8.png);
 }
 
 .card[for="c2"] {
-  background-image: url(./img/h6.png);
+  background-image: url(https://lux2445.github.io/feel/img/h6.png);
 }
 
 .card[for="c3"] {
-  background-image: url(./img/h7.png);
+  background-image: url(https://lux2445.github.io/feel/img/h7.png);
 
 }
 
 .card[for="c4"] {
-  background-image: url(./img/h5.png);
+  background-image: url(https://lux2445.github.io/feel/img/h5.png);
 }
 
 .seven__section__wrapper_title{
