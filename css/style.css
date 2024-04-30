@@ -19,7 +19,7 @@ body{
 
 .mask{
   width: 100%;
-  height: 1000px;
+  height: 100000000px;
   background-color: #fff;
   z-index: 100;
   position: relative;
@@ -1185,9 +1185,20 @@ width: 900px;
   margin-top: 20px;
 }
 
+.footer__cards_elements_input{
+  border-radius: 30px;
+  height: 40px;
+  width: 170px;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  color: #fff;
+  padding-left: 20px;
+}
 
-
-
+.footer__cards_elements_input:hover{
+  transition: 900ms;
+  box-shadow: 0 0 25px #ffffff;
+}
 
 
 
@@ -1952,6 +1963,10 @@ margin-top: 1100px;
     margin-left: 250px;
   }
   
+  .span{
+    font-size: 50px;
+  }
+
 
   .six__section_wrapper{
     display: block;
@@ -2070,6 +2085,10 @@ margin-top: 1100px;
 
   .footer{
     width: 765px;
+  }
+
+  .span{
+    font-size: 50px;
   }
 
   .five__section_paragraph_items{

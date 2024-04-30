@@ -224,18 +224,18 @@
                 <div class="six__section_map" data-aos="fade-up-right" data-aos-duration="1000">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1280.141574626075!2d68.78481322090606!3d38.58273979609173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDM0JzU4LjIiTiA2OMKwNDcnMDUuNCJF!5e0!3m2!1sru!2s!4v1713975573430!5m2!1sru!2s" class="map"></iframe>
                 </div>
-                <div class="six__section_title" data-aos="fade-up-right" data-aos-duration="700">
-                    <div class="six__section_bacground_text">
+                <div class="six__section_title">
+                    <div class="six__section_bacground_text"  data-aos="zoom-in-up" data-aos-duration="1000">
                         <h1 class="third__section_bacground_title">LOOK</h1>
                     </div>
-                    <div class="six__section_title_paragraph">
+                    <div class="six__section_title_paragraph"  data-aos="zoom-in-up" data-aos-duration="1000">
                         <h1 class="six__section_title_paragraph_item">FIND US NEAR YOU</h1>
                     </div>
-                    <div class="six__section_title_text">
+                    <div class="six__section_title_text"  data-aos="zoom-in-up" data-aos-duration="1000">
                         <p class="six__section_title_text_item">Nec suas signiferumque id. An eum labore commodo principes</p>
                         <p class="six__section_title_text_item">Usu diam noluisse cu, nam adipisci</p>
                     </div>
-                    <div class="six__section_wrapper_input_btn">
+                    <div class="six__section_wrapper_input_btn"  data-aos="zoom-in-up" data-aos-duration="1000">
                         <a href="">
                             <button class="six__section_input_btn">
                                 <p class="six__view">View more</p>
@@ -247,7 +247,7 @@
         </section>
         <section class="seven__section" id="port">
             <div class="seven__section__wrapper">
-                <div class="seven__section__wrapper_title">
+                <div class="seven__section__wrapper_title"  data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="seven__section_bacground_text">
                         <h1 class="third__section_bacground_title">PART</h1>
                     </div>
@@ -258,7 +258,7 @@
                         <p class="seven__section__wrapper_text_item">TRAINING HELPS YOU THINK AND FEEL BETTER. JOIN US!</p>
                     </div>
                 </div>
-                    <div class="seven__section__wrapper_slider">
+                    <div class="seven__section__wrapper_slider" data-aos="fade-right" data-aos-duration="1000">
                         <div class="wrapper1">
                             <div class="container">
                             <input type="radio" name="slide" id="c1" checked>
@@ -300,8 +300,8 @@
                         </div>
                     </div>
                 <div class="seven__section__wrapper_information">
-                    <div class="seven__section_part1">
-                        <div class="seven__section_bacground_part">
+                    <div class="seven__section_part1" >
+                    <div class="seven__section_bacground_part">
                             <h1 class="second__section_bacground_title">BMI</h1>
                         </div>
                         <div class="seven__section_part1_text" >
@@ -313,8 +313,19 @@
                             <input type="number" class="height inpet" placeholder="Height / cm">
                             <input type="number" class="weight inpet" placeholder="Weight / kg">
                             <input type="number" class="age inpet"  placeholder="Age">
-                            <input type="text" class="gender inpet"  placeholder="Gender">
-                            <input type="text" class="factor inpet"  placeholder="Select an activity factor:" maxlength="50">
+                            <input type="text" class="gender inpet"  placeholder="Gender" list="options">
+                            <datalist id="options">
+                                <option value="Male">
+                                <option value="Female">
+                            </datalist>
+                            <input type="text" class="factor inpet"  placeholder="Select an activity factor:" maxlength="50" list="option">
+                            <datalist id="option">
+                                <option value="Sport">
+                                <option value="Tourism">
+                                <option value="Active Walking">
+                                <option value="Running in the mornings/evenings">
+                                <option value="Other(Describe)">
+                            </datalist>
                             <input type="text" class="reset">
                             <button class="seven__section_part1_btn">CALCULATE</button>
                         </form>
@@ -383,7 +394,7 @@
             </div>
             <div class="footer__cards_elements element__four">
                 <h1 class="element__four_paragraph">START NOW</h1>
-                <input type="text" class="footer__cards_elements_input">
+                <input type="text" class="footer__cards_elements_input" placeholder="">
             </div>
         </div>
     </footer>
