@@ -38,7 +38,7 @@
                     <img src="./img/svg/header_logo.svg" alt="Discover Amazing places in Japan">
                 </a>
             </div>
-            <nav class="header__nav">
+            <nav class="header__nav" id="menu">
                 <ul class="header__list">
                     <li class="header__item">
                         <a href="#home" class="header__item_link">HOME</a>
@@ -56,6 +56,7 @@
                         <a href="#shop" class="header__item_link">SHOP</a>
                     </li>
                 </ul>
+                <a href="https://lux2445.github.io/Validation/" class="nav__image_link">SIGN IN</a>
             </nav>
             <div class="nav__image">
                 <button class="nav__image_button">
@@ -66,6 +67,13 @@
             </div>
         </div>  
         </div>
+        <div class="header__burger">
+            <button class="header__burger_button" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
     </header>
 
     <main class="main">
@@ -73,7 +81,7 @@
             <div class="first__section_wrapper">
                 <div class="first__line tracking-in-expand">
                     <div class="first__section_logo">
-                        <img src="./img/strelka2.png" alt="" class="logo__first">
+                        <img src="./img/png/strelka2.png" alt="" class="logo__first">
                     </div>
                     <div class="first__section_text">
                         <p class="first__section_title">New event <p class="first__section_title">coming up / june 7 - 13</p></p>
@@ -109,14 +117,14 @@
                     </div>
                 </div>
                 <div class="second__section_image" data-aos="fade-left" data-aos-duration="700">
-                    <img src="./img/h1.jpg" alt="" class="second__section_img" >
+                    <img src="./img/jpg/h1.jpg" alt="" class="second__section_img" >
                 </div>
             </div>
         </section>
         <section class="third__section">
             <div class="third__section_weapper">
                 <div class="third__section_image">
-                    <img src="./img/h2.png" alt="" class="third__section_img" data-aos="fade-up-right" data-aos-duration="700">
+                    <img src="./img/png/h2.png" alt="" class="third__section_img" data-aos="fade-up-right" data-aos-duration="700">
                 </div>
                 <div class="third__section_weapper_text" data-aos="fade-left" data-aos-duration="700">
                     <div class="third__section_bacground_text">
@@ -143,42 +151,42 @@
                 <div class="slider__wrapper">
                     <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
                         <div class="slider__item">
-                            <img src="./img/strelka.png" alt="" class="strelka">
+                            <img src="./img/png/strelka.png" alt="" class="strelka">
                             <img class="slider__image" src="./img/svg/icon__four-section1.svg" alt="Image">
                             <div class="slider__info">
                             <h2 class="h__first">MAXPUMP</h2>
                         </div>
                         </div>
                         <div class="slider__item">
-                            <img src="./img/strelka.png" alt="" class="strelka">
+                            <img src="./img/png/strelka.png" alt="" class="strelka">
                             <img class="slider__image" src="./img/svg/icon__four-section2.svg" alt="Image">
                             <div class="slider__info">
                             <h2 class="h__second">ARON GYM</h2>
                         </div>
                         </div>
                         <div class="slider__item">
-                            <img src="./img/strelka.png" alt="" class="strelka">
+                            <img src="./img/png/strelka.png" alt="" class="strelka">
                             <img class="slider__image" src="./img/svg/icon__four-section3.svg" alt="Image">
                             <div class="slider__info">
                             <h2 class="h__third">FIT & TONE</h2>
                         </div>
                         </div>
                         <div class="slider__item">
-                            <img src="./img/strelka.png" alt="" class="strelka">
+                            <img src="./img/png/strelka.png" alt="" class="strelka">
                             <img class="slider__image" src="./img/svg/icon__four-section4.svg" alt="Image">
                             <div class="slider__info">
                             <h2 class="h__four">FORZA</h2>
                         </div>
                         </div>
                         <div class="slider__item">
-                            <img src="./img/strelka.png" alt="" class="strelka">
+                            <img src="./img/png/strelka.png" alt="" class="strelka">
                             <img class="slider__image" src="./img/svg/icon__four-section5.svg" alt="Image">
                             <div class="slider__info">
                             <h2 class="h__fife">SALANCE FITNESS</h2>
                         </div>
                         </div>
                         <div class="slider__item">
-                            <img src="./img/strelka.png" alt="" class="strelka">
+                            <img src="./img/png/strelka.png" alt="" class="strelka">
                             <img class="slider__image" src="./img/svg/icon__four-section6.svg" alt="Image">
                             <div class="slider__info">
                             <h2 class="h__six">BODY SCULPT</h2>
@@ -192,12 +200,12 @@
         <section class="five__section" id="join">
             <div class="five__section_wrapper ">
                 <div class="five__section_wrapper_image">
-                    <img src="./img/h4.png" alt="" class="cover" data-aos="flip-right" data-aos-duration="1000">
-                    <img src="./img/91ea7764f4eaf54b963accba0e738026.jpg" alt="" class="section__bg">
+                    <img src="./img/png/h4.png" alt="" class="cover" data-aos="flip-right" data-aos-duration="1000">
+                    <img src="./img/jpg/91ea7764f4eaf54b963accba0e738026.jpg" alt="" class="section__bg">
                 </div>
                 <div class="five__section_paragraph_items">
                     <h1 class="five__section_paragraph" data-aos="zoom-in-up" data-aos-duration="1000">JOIN US</h1>
-                    <img src="./img/vverh.png" alt="" class="five__section_wrapper_paragraph_img" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <img src="./img/png/vverh.png" alt="" class="five__section_wrapper_paragraph_img" data-aos="zoom-in-up" data-aos-duration="1000">
                 </div>
                 <div class="five__section_wrapper_title_items" data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="fie__section_bacground_text">
@@ -301,10 +309,10 @@
                     </div>
                 <div class="seven__section__wrapper_information">
                     <div class="seven__section_part1" >
-                    <div class="seven__section_bacground_part">
-                            <h1 class="second__section_bacground_title">BMI</h1>
+                    <div class="seven__section_bacground_part" data-aos="fade-up-right" data-aos-duration="1000">
+                            <h1 class="second__section_bacground_title" >BMI</h1>
                         </div>
-                        <div class="seven__section_part1_text" >
+                        <div class="seven__section_part1_text" data-aos="fade-up-right" data-aos-duration="1000">
                             <h1 class="seven__section_part1_title">INPUT YOUR BMI</h1>
                             <p class="seven__section_part1_pragraph">Duo graece ponderum ne, ei mel aliquando. Pro te</p>
                             <p class="seven__section_part1_pragraph">tamquam nonumes, nam no nemore epicurei</p>
@@ -330,12 +338,12 @@
                             <button class="seven__section_part1_btn">CALCULATE</button>
                         </form>
                     </div>
-                    <div class="seven__section_part2">
-                        <div class="seven__section_information_table">
+                    <div class="seven__section_part2" >
+                        <div class="seven__section_information_table" >
                             <div class="seven__section_circle">
                                 
                             </div>
-                            <table class="seven__section_table">
+                            <table class="seven__section_table" data-aos="fade-up-right" data-aos-duration="1000">
                                 <tr>
                                     <td class="first_tb_item">BMI</td>
                                     <td class="second_tb_item">WEIGHT STATUS</td>
@@ -394,8 +402,25 @@
             </div>
             <div class="footer__cards_elements element__four">
                 <h1 class="element__four_paragraph">START NOW</h1>
-                <input type="text" class="footer__cards_elements_input" placeholder="">
+                <form action=""> 
+                    <input type="email" class="footer__cards_elements_input" placeholder="Email">
+                    <button class="footer__cards_elements_btn">SENT</button>
+                </form>
+                <div class="element__four_icon">
+                    <a href="" class="element__four_icon_link">
+                        <img src="./img/svg/insta.svg" alt="" class="element__four_icon_item">
+                    </a>
+                    <a href="" class="element__four_icon_link">
+                        <img src="./img/svg/tt.svg" alt="" class="element__four_icon_item">
+                    </a>
+                    <a href="" class="element__four_icon_link">
+                        <img src="./img/svg/twitter.svg" alt="" class="element__four_icon_item">
+                    </a>
+                    <a href="" class="element__four_icon_link"></a>
+                    <img src="./img/svg/youtibe.svg" alt="" class="element__four_icon_item">
+                </div>
             </div>
+
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
