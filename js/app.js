@@ -27,7 +27,6 @@ document.body.addEventListener('click', event => {
     if (event._isClickWithInMenu) return;
     document.querySelector(".header").classList.remove("open")
 });
-
 //загрузка сайт
 let mask = document.querySelector('.mask')
 window.addEventListener('load', () => {
@@ -48,3 +47,22 @@ window.addEventListener('scroll', () => {
         topBtn.classList.remove('bounce-in-top');
     }
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

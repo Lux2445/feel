@@ -1266,9 +1266,26 @@ width: 900px;
   transition: 700ms;
 }
 
+.over{
+  height: 30px;
+  color: #FFF;
+}
+
+.over__title{
+  margin-top: 10px;
+  margin-left: 300px;
+}
+
+
 /* адаптация */
 
 @media (max-width: 768px) {
+  .element__four_int{
+    margin-left: -10px;
+  }
+  .element__four_icon{
+    margin-left: -5px;
+  }
   .header{
     height: 60px;
   }
@@ -2226,6 +2243,13 @@ margin-top: 1100px;
   .map{
     margin-left: 20px;
   }
+  .element__four_int{
+    margin-left: -15px;
+  }
+  .element__four_icon{
+    margin-left: -10px;
+  }
+
 }
 
 @media (max-width: 410px) {
