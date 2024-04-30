@@ -1,6 +1,44 @@
 @import url(/fonts/Heebo-VariableFont_wght.ttf);
+* {
+  scroll-behavior: smooth;
+}
 body{
   background: #131619;
+}
+
+
+.top__parent {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 15000000000000000;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .5s;
+  
+}
+
+.bounce-in-top {
+  -webkit-animation: bounce-in-top 1.1s both;
+  animation: bounce-in-top 1.1s both;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.top__btn {
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  height: 40px;
+  color: #ffffff;
+  z-index: 15000000000000000;
 }
 
 .header__burger{

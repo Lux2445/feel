@@ -37,3 +37,14 @@ window.addEventListener('load', () => {
     }, 1000)
 });
 
+// кнопка вверх
+const topBtn = document.querySelector('.top__parent');
+window.addEventListener('scroll', () => {
+    if (window.pageYOffset>500) {
+        // topBtn.classList.add('add');
+        topBtn.classList.add('bounce-in-top');
+    } else {
+        // topBtn.classList.remove('add');
+        topBtn.classList.remove('bounce-in-top');
+    }
+})
