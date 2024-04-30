@@ -865,20 +865,20 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url(https://github.com/Lux2445/feel/blob/main/img/png/h8.png);
+  background-image: url(/img/png/h8.png);
 }
 
 .card[for="c2"] {
-  background-image: url(https://github.com/Lux2445/feel/blob/main/img/png/h6.png);
+  background-image: url(/img/png/h6.png);
 }
 
 .card[for="c3"] {
-  background-image: url(https://github.com/Lux2445/feel/blob/main/img/png/h7.png);
+  background-image: url(/img/png/h7.png);
 
 }
 
 .card[for="c4"] {
-  background-image: url(https://github.com/Lux2445/feel/blob/main/img/png/h5.png);
+  background-image: url(/img/png/h5.png);
 }
 
 .seven__section__wrapper_title{
