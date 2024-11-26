@@ -1,6 +1,7 @@
 @import url(/fonts/Heebo-VariableFont_wght.ttf);
 * {
   scroll-behavior: smooth;
+  outline: 1px solid red;
 }
 body{
   background: #131619;
